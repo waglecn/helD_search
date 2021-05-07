@@ -4,7 +4,7 @@ channels:
   - bioconda
 dependencies:
   - python >=3.6
-  - bioconda::snakemake-minimal>=5.22.1
+  - bioconda::snakemake-minimal==6.0.5
   - bioconda::ete3
   - bioconda::biopython
   - bioconda::ncbi-genome-download
