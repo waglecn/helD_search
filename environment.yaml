@@ -9,6 +9,8 @@ dependencies:
   - bioconda::biopython
   - bioconda::ncbi-genome-download
   - bioconda::diamond
+  - bioconda::hmmer
   - bioconda::mafft
   - bioconda::krona
   - bioconda::iqtree
+  - bioconda::fasttree

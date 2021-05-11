@@ -307,5 +307,5 @@ rule fasttree_all:
     output:
         "clustered_hits/{ct}/detected_helD.all.trimal.fasttree.tree"
     shell:
-        "fasttreeMP -wag < {input} > {output}"
+        "fasttree -wag < {input} > {output}"
 

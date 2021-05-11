@@ -27,7 +27,7 @@ GGGGCTTGCGGCAAGGCCC
 
 Usage:
 
-snakemake -c use-conda COMMAND
+snakemake --cores NUM_CORES -c use-conda COMMAND
 
 where COMMANDS are one or more of:
   
