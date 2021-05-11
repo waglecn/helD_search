@@ -1,6 +1,17 @@
 #!/usr/bin/env python3
+"""
+This utility script scans the usearch uc file and generates a summary 
+text file for each cluster
+
+input: uc file, ie clustered_hits/all.50.sorted.uc
+
+output: uc text file, is clustered_hits/all.50.sorted.txt
+
+"""
+
 import sys
 import os
+
 
 def process(infile):
     centroids = {}

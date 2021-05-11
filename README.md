@@ -9,7 +9,7 @@ https://www.uniprot.org/uniprot/A0QUE0
 https://www.biorxiv.org/content/10.1101/2020.07.20.211821v1.full.pdf
 
 Requirements:
-- usearch (in path) (www.drive5.com)
+- usearch (place in /scripts) (www.drive5.com)
 
 
 ```

@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+"""
+This script generates the sequence file with the updated sequence definition
+lines annotated with taxonomy and RAE information
+
+"""
 
 import sys
 import os

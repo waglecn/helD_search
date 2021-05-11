@@ -8,6 +8,7 @@ dependencies:
   - bioconda::ete3
   - bioconda::biopython
   - bioconda::ncbi-genome-download
+  - bioconda::diamond
   - bioconda::mafft
   - bioconda::krona
   - bioconda::iqtree

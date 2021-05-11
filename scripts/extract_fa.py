@@ -1,4 +1,12 @@
 #!/usr/bin/env python3
+"""
+This script processes sequences from the genome flat files
+
+Depending on the second argument, either 'faa' or 'upstream', will
+extract protein sequences or the upstream 500 bp nucleotide sequences
+for each genome.
+"""
+
 import sys
 from Bio import SeqIO
 import gzip
@@ -22,7 +30,6 @@ def main():
             print(u)
     else:
         pass
-
 
 
 def load(input_file, _open):
